@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Otopark Takip Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🚗 Otopark Takip Sistemi</h1>
+
+    <div class="controls">
+        <input type="text" id="plateInput" placeholder="Plaka giriniz">
+        <input type="number" id="rateInput" placeholder="Saatlik ücret (₺)">
+        <button onclick="setHourlyRate()">Ücreti Ayarla</button>
+        <button onclick="addVehicle()">Giriş Yap</button>
+        <button onclick="removeVehicle()">Çıkış Yap</button>
+        <button onclick="listVehicles()">İçeridekileri Listele</button>
+        <button onclick="generateReport()">Raporu İndir</button>
+    </div>
+
+    <div id="vehicleList" class="parking-lot"></div>
+
+    <script src="Script1.js"></script>
+</body>
+</html>

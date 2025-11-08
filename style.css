@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #dbe9f4, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #2980b9;
+    }
+
+.parking-lot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.parking-spot {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: #ecf0f1;
+    border: 2px dashed #7f8c8d;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
